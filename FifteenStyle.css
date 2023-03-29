@@ -1,0 +1,273 @@
+html, body{
+  background: #0f72e5;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+.container {
+    margin-left: 60%;
+}
+.point{
+  float: right;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.Watch2{
+
+  font-size: 25px;
+  color: white;
+    text-align: center;
+}
+table {
+       margin-right: 205px;
+       border-collapse: collapse;
+       width:400px;
+       height: 50px;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 50px;
+   }
+th,td {
+       border: 1px solid white;
+       padding: 5px;
+       width:400px;
+       height: 50px;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 50px;
+   }
+
+.but{
+  margin-top: 50px;
+  margin-left: 37%;
+  border: 3px solid inherit;
+  padding: 10px;
+}
+.button {
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+    background-color: #888888;
+}
+.button3 {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3:hover{
+    background-color: mediumblue;
+}
+.button4 {
+  border-radius: 12px;
+}
+/*To be worked on!!!!!*/
+#youwin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+}
+.header{
+
+    text-align:center;
+    background: black;
+    color: white;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.hit {
+    float: left;
+    margin-top: 0px;
+    width: 400px;
+    height: 400px;
+    background: url("./help.png") no-repeat;
+    margin-left: 20%;
+
+}
+
+.tile1{
+    background-position: 0 0;
+}
+.tile2{
+    background-position: -100px 0;
+}
+.tile3{
+    background-position: -200px 0;
+ }
+.tile4{
+    background-position: -300px 0;
+}
+.tile5{
+    background-position: 0 -100px;
+}
+.tile6{
+    background-position: -100px -100px;
+}
+.tile7{
+    background-position: -200px -100px;
+}
+.tile8{
+    background-position: -300px -100px;
+}
+.tile9{
+    background-position: 0 -200px;
+}
+.tile10{
+    background-position: -100px -200px;
+}
+.tile11{
+    background-position: -200px -200px;
+}
+.tile12{
+    background-position: -300px -200px;
+}
+.tile13{
+    background-position: 0 -300px;
+}
+.tile14{
+    background-position: -100px -300px;
+}
+.tile15{
+    background-position: -200px -300px;
+}
+.tile16{
+    background: white; cursor: default;
+}
+
+.btn-group button {
+    background-color: grey; /* Green background */
+    border: 1px solid gainsboro; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #888888;
+}
+
+
+
+/*Pop up model*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: lightslategrey;
+
+    margin-right: 50%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 23%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tablename{
+    text-align: center;
+    font-size: medium;
+}
+
+/*Game win notification*/
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.popup{
+    background-color: black;
+    width: 550px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*Validators */
+#w3c {
+    text-align: right;
+}
+
+#w3c img {
+    border: none;
+}
+
+

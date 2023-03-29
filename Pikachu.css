@@ -1,0 +1,22 @@
+@import "FifteenStyle.css";
+
+    .hit:hover {
+        background: url("./pikachu.jpg") no-repeat;
+        margin-top: 0px;
+        width: 400px;
+        height: 400px;
+    }
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11,
+.tile12, .tile13, .tile14, .tile15, .tile16{
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+    background-image: url("pikachu.jpg");
+    border: 2px black solid;
+    cursor: pointer;
+}
+
+.tile16{
+    background: white; cursor: default;
+}
