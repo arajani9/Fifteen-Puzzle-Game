@@ -1,6 +1,6 @@
 # Fifteen Puzzle Game project
 
-#Introduction:
+# Introduction:
 This project aimed to develop a sliding puzzle game that included four extra features: multiple 
 backgrounds, end-of-game notification, game time and music, and extra animation. The project 
 was completed by Aditya Rajani and Milin Gujrati using CSS, HTML, and JavaScript.
